@@ -6,15 +6,16 @@
 }
 
 :root {
-    --moderate-cyan: hsl(176, 50%, 47%);
+   --moderate-cyan: hsl(176, 50%, 47%);
     --dark-cyan: hsl(176, 72%, 28%);
     --black: hsl(0, 0%, 0%);
     --dark-gray: hsl(0, 0%, 48%);
-    --bg-color: rgb(188 188 188 / 7%);
+    --bg-color: 
+    
 }
 
 body {
-    background-color: var(--bg-color);
+    background-color:var(--bg-color);
     color: var(--dark-gray);
 }
 h1, h2, h3, h4, h5, h6 {
@@ -52,25 +53,21 @@ header {
     color: rgb(214, 214, 214);
 }
 
-
-/*===========================================
-    HERO SECTION
-===========================================*/
 .container {
     width: 600px;
-    background-color: #fff;
+    background-color: white;
     margin: 0 auto;
-    /* margin-top: -80px; */
     position: relative;
     top: -80px;
     border-radius: 8px;
-    padding: 25px;
+    padding: 25px;   
 }
 .secondary-logo {
     position: absolute;
     top: -30px;
     left: 50%;
     transform: translateX(-50%);
+    margin-bottom: 25px;
 }
 .section-heading {
     text-align: center;
@@ -87,7 +84,7 @@ header {
 }
 .buttons button {
     border: 0;
-    background-color: hsl(176deg 59% 50% / 10%);
+    background-color: var(--dark-gray);
     border-radius: 100px;
     cursor: pointer;
     padding: 8px 20px;
@@ -99,9 +96,8 @@ header {
     background-color: var(--moderate-cyan);
 }
 .buttons button:last-child {
-    background-color: rgb(128 128 128 / 17%);    
-    color: rgb(110, 106, 106);
-    font-weight: 500;
+    background-color: rgb(233, 218, 218);
+    color: grey;
 }
 
 .buttons button img {
@@ -116,11 +112,3 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-
-
-
-
-
-
-
-
